@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Economic Benefit</title>
+</head>
+<body>
+  <div class="container">
+    <h2>
+      S(F) = <span id="sf">99</span>
+    </h2>
+    <form id="form">
+    <div class="box-grid">   
+      <div class="box">
+        <h4>
+          SX(m/u)  - costs in the existing method = <span id="sx_mu">156</span>
+        </h4>
+        <h5>
+          x_x^m  - total direct costs of construction at existing method = 
+          <span id="x_x_m">000</span>
+        </h5>
+        <label>
+          x_i^m   - labor costs of workers in the existing method
+          <input type="number" id="x_i_m">
+        </label>
+        <label>
+          x_mx^m   - costs of machinery and equipment in the existing method
+          <input type="number" id="x_mx_m" >
+        </label>
+        <label>
+          x_m^m   - costs for construction materials at existing method
+          <input type="number" id="x_m_m">
+        </label>
+      </div>
+
+      <div class="box">
+        <h4>
+          SX(t/u)  -  costs of the proposed method = <span id="sx_tu">106</span>
+        </h4>
+        <h5>
+          x_x^t  - total direct costs of construction at proposed method = 
+          <span id="x_x_t">111</span>
+        </h5>
+        <label>
+          x_i^t   - labor costs of workers in the proposed method
+          <input type="number" id="x_i_t">
+        </label>
+        <label>
+          x_mx^t   - costs of machinery and equipment in the proposed method
+          <input type="number" id="x_mx_t">
+        </label>
+        <label>
+          x_m^t   - costs for construction materials at proposed method
+          <input type="number" id="x_m_t">
+        </label>
+      </div>
+
+      <button type="submit" >Calculate</button>
+    </form> 
+  </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
